@@ -1,0 +1,12 @@
+
+.logo {
+        max-width: 30rem;
+}
+main {
+    min-height: 55vh;
+}
+
+
+.bg-principal{
+    background-color: rgb(98, 209, 172);
+}
