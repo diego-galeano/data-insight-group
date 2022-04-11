@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +26,7 @@
             </div>
             <div class="col navbar-text">
                 <div class="d-flex justify-content-end">
-                    <img src="./assets/essential_chat_message_envelope_letter_email_web_ui_mail_icon_210552.ico"
+                    <img src="./assets/icon_email.ico"
                         width="40" alt="icons email">
                     <a class="p-2" href="mailto:info@datainsightgroup.net">info@DataInsightGroup.net</a>
                 </div>
@@ -131,7 +131,7 @@
             </form>
         
 
-            <table class="table table-hover shadow p-3 mb-5 rounded">
+            <table class="table table-hover shadow p-3 mb-5" id="house-table">
                 <thead class="sticky-top text-white bg-principal">
                     <tr>
                         <th scope="col">#</th>
@@ -142,11 +142,11 @@
                         <th scope="col">&percnt; Votes w/ Party</th>
                     </tr>
                 </thead>
-                <tbody class="tbody-senators"></tbody>
+                <tbody id="tbody-congress"></tbody>
             </table>
     </main>
     <footer class="container">
-        <div class="row bg-secondary bg-opacity-10 p-2 border border-dark rounded">
+        <div class="row shadow p-3 mb-1 bg-body">
             <div class="col text-end border-end border-dark border-2 pt-2">
                 <p>&copy; 2022 Data Insight Group</p>
             </div>
@@ -158,7 +158,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <script src="./data/house-data.js"></script>
     <script src="./scripts/main.js"></script>
     
 </body>
